@@ -1,0 +1,29 @@
+{
+  "name": "githubactions",
+  "version": "1.0.0",
+  "description": "Github actions",
+  "homepage": "https://github.com/DearWafles/test_prisma_actions#readme",
+  "bugs": {
+    "url": "https://github.com/DearWafles/test_prisma_actions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DearWafles/test_prisma_actions.git"
+  },
+  "license": "ISC",
+  "author": "Diego Lopez",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.4.0",
+    "@prisma/client": "^7.4.0",
+    "@types/node": "^25.2.3",
+    "@types/pg": "^8.16.0",
+    "dotenv": "^17.3.1",
+    "pg": "^8.18.0",
+    "prisma": "^7.4.0"
+  }
+}
